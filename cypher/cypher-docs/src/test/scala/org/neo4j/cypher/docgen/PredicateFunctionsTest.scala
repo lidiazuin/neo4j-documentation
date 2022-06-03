@@ -136,7 +136,7 @@ class PredicateFunctionsTest extends DocumentingTest {
       /*Result:
       ({name: "Eskil", eyes: "blue", age: 41, liked_colors: ["pink", "yellow", "black"]})
       ({alias: "Frank", eyes: "", age: 61, liked_colors: ["blue", "green"]})
-      */ 
+      */
       ResultAssertions(r => {
           r.toList.length should equal(2)
         })) {
